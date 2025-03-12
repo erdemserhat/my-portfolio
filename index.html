@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serhat Erdem - Portfolyo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Serhat Erdem</div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#skills">Yetenekler</a></li>
+                <li><a href="#projects">Projeler</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Merhaba, Ben Serhat Erdem</h1>
+            <p>Full Stack Developer</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>Keşfetmek için kaydır</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="hero-particles">
+            <!-- Particles will be dynamically added via JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Hakkımda</h2>
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="pp.jpg" alt="Serhat Erdem">
+            </div>
+            <div class="about-text">
+                <p>Merhaba! Ben Serhat, Fırat Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim. Bu sayfada hakkımda daha fazla bilgi edinebilir, projelerimi inceleyebilir ve çalışmalarımı keşfedebilirsiniz. Yeni teknolojileri öğrenmeye ve yenilikçi çözümler üretmeye her zaman açığım. İletişime geçmekten çekinmeyin! 🚀</p>
+            </div>
+            <div class="about-social-links">
+                <a href="https://erdemserhat.com" class="about-social-link" target="_blank">
+                    <div class="about-social-icon">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="about-social-text">
+                        <span class="about-social-title">Blog</span>
+                        <span class="about-social-username">erdemserhat.com</span>
+                    </div>
+                </a>
+                <a href="https://github.com/erdemserhat" class="about-social-link" target="_blank">
+                    <div class="about-social-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="about-social-text">
+                        <span class="about-social-title">GitHub</span>
+                        <span class="about-social-username">@erdemserhat</span>
+                    </div>
+                </a>
+                <a href="https://linkedin.com/in/serhaterdem" class="about-social-link" target="_blank">
+                    <div class="about-social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="about-social-text">
+                        <span class="about-social-title">LinkedIn</span>
+                        <span class="about-social-username">serhaterdem</span>
+                    </div>
+                </a>
+                <a href="mailto:your.email@example.com" class="about-social-link">
+                    <div class="about-social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="about-social-text">
+                        <span class="about-social-title">Email</span>
+                        <span class="about-social-username">Contact Me</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Yeteneklerim</h2>
+        <div class="skills-grid">
+            <div class="skills-category">
+                <h3 class="category-title">Programlama Dilleri & Teknolojiler</h3>
+                <div class="category-grid">
+                    <!-- Backend Technologies -->
+                    <div class="skill-card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                        <p>Spring Boot, Spring Security, Hibernate, Swing</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Kotlin</h3>
+                        <p>Spring Boot, Ktor, Ktorm, Jetpack Compose</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Django, FastAPI</p>
+                    </div>
+                    
+                    <!-- Frontend Technologies -->
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>React, HTML, CSS</p>
+                    </div>
+                    
+                    <!-- Other Languages -->
+                    <div class="skill-card">
+                        <i class="fab fa-windows"></i>
+                        <h3>C#</h3>
+                        <p>Windows Forms</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-android"></i>
+                        <h3>C++</h3>
+                        <p>Android NDK</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">Araçlar & Teknolojiler</h3>
+                <div class="category-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-git-alt"></i>
+                        <h3>Versiyon Kontrolü</h3>
+                        <p>Git, GitHub</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Veritabanı & Depolama</h3>
+                        <p>MySQL, Room, Firebase</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-aws"></i>
+                        <h3>Sunucu & Deployment</h3>
+                        <p>AWS EC2, Nginx, Apache, cPanel</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>Dependency Injection</h3>
+                        <p>Dagger, Hilt</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-sync-alt"></i>
+                        <h3>Asenkron İşlemler</h3>
+                        <p>Coroutines, Retrofit</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">Geliştirme Ortamları</h3>
+                <div class="category-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-android"></i>
+                        <h3>Android Geliştirme</h3>
+                        <p>Android Studio</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>JetBrains IDEs</h3>
+                        <p>IntelliJ IDEA, PyCharm, WebStorm</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-microsoft"></i>
+                        <h3>Microsoft</h3>
+                        <p>Visual Studio</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Tasarım & API</h3>
+                        <p>Figma, Postman</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-terminal"></i>
+                        <h3>Editör</h3>
+                        <p>NeoVim</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">Mimariler & Yaklaşımlar</h3>
+                <div class="category-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-cube"></i>
+                        <h3>Programlama Paradigmaları</h3>
+                        <p>OOP, Fonksiyonel Programlama, Jenerik Programlama</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Mimari Desenler</h3>
+                        <p>Clean Architecture, Onion Architecture</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>Tasarım Kalıpları</h3>
+                        <p>MVC, MVVM, Design Patterns</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Yazılım Prensipleri</h3>
+                        <p>SOLID Prensipleri</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projelerim</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Harmony Haven</h3>
+                    <span class="project-role">Full Stack Developer</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Kişisel gelişim ve motivasyon alanlarında zengin içerikler sunan, 19 farklı kategoride 4000+ söz ve AI destekli kişiselleştirilmiş bildirimler sağlayan kapsamlı bir platform.
+                    </p>
+                    <div class="tech-stack">
+                        <h4>Kullanılan Teknolojiler:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Ktor</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">AWS EC2</span>
+                            <span class="tech-tag">OpenAI API</span>
+                            <span class="tech-tag">Firebase FCM</span>
+                            <span class="tech-tag">Room Database</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Öne Çıkan Özellikler:</h4>
+                        <ul>
+                            <li>19 farklı kategoride 4000+ motivasyon sözü</li>
+                            <li>AI destekli kişiselleştirilmiş bildirimler</li>
+                            <li>Uçtan uca tam yığın geliştirme</li>
+                            <li>Modern mobil ve web arayüzü</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://harmonyhavenappserver.erdemserhat.com/static/presentation/index.html" target="_blank" class="project-demo-button">
+                            <i class="fas fa-external-link-alt"></i>
+                            Projeyi İncele
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.erdemserhat.harmonyhaven&hl=en" target="_blank" class="project-demo-button">
+                            <i class="fab fa-google-play"></i>
+                            Play Store
+                        </a>
+                        <a href="https://harmonyhaven.erdemserhat.com/" target="_blank" class="project-demo-button">
+                            <i class="fas fa-globe"></i>
+                            Web Sitesi
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Bariatrack</h3>
+                    <span class="project-role">Backend Developer</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Sağlık Verileri & CRM Takip Sistemi - Endüstri standartlarına uygun, ölçeklenebilir bir monolith-modular backend mimarisi ile geliştirilmiş, özel iletişim altyapısına sahip sağlık verileri yönetim sistemi.
+                    </p>
+                    <div class="tech-stack">
+                        <h4>Kullanılan Teknolojiler:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Rest API</span>
+                            <span class="tech-tag">Hibernate</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">GitHub</span>
+                            <span class="tech-tag">Nginx</span>
+                            <span class="tech-tag">Swagger UI</span>
+                            <span class="tech-tag">OpenVPN</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Öne Çıkan Özellikler:</h4>
+                        <ul>
+                            <li>Ölçeklenebilir monolith-modular backend mimarisi</li>
+                            <li>OpenVPN ile özel iletişim altyapısı</li>
+                            <li>CI/CD süreçlerinde optimize edilmiş dağıtım (5dk → 2-3sn)</li>
+                            <li>Endüstri standartlarına uygun tasarım</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://harmonyhavenappserver.erdemserhat.com/static/vitalis/index.html" target="_blank" class="project-demo-button">
+                            <i class="fas fa-external-link-alt"></i>
+                            Projeyi İncele
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>AsteriaTech</h3>
+                    <span class="project-role">Full Stack Developer</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Teknofest'te 12.599 takım arasından 26. olan, tarım alanlarının güvenliğini sağlamak için geliştirilen yapay zeka destekli drone güvenlik sistemi. Gerçek zamanlı tehdit tespiti ve mobil kontrol özellikleri ile çiftçilere yenilikçi bir güvenlik çözümü sunuyor.
+                    </p>
+                    <div class="tech-stack">
+                        <h4>Kullanılan Teknolojiler:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Android SDK</span>
+                            <span class="tech-tag">Thermal Camera</span>
+                            <span class="tech-tag">Drone Control System</span>
+                            <span class="tech-tag">Sound Module</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Öne Çıkan Özellikler:</h4>
+                        <ul>
+                            <li>Teknofest Akdeniz'de 12.599 takım arasından 26. sıralama</li>
+                            <li>Gerçek zamanlı tehdit tespiti ve anlık mobil bildirimler</li>
+                            <li>Android uygulaması ile uzaktan drone kontrolü</li>
+                            <li>Termal kamera ile gece/gündüz tehdit tespiti</li>
+                            <li>20-50 kHz ultrasonik ses sistemi ile etkili uzaklaştırma</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://harmonyhavenappserver.erdemserhat.com/static/asteriatech/index.html" target="_blank" class="project-demo-button">
+                            <i class="fas fa-external-link-alt"></i>
+                            Projeyi İncele
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Encryptext</h3>
+                    <span class="project-role">Android Developer</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Türkçe ve İngilizce dil desteğine sahip, modern bir metin şifreleme uygulaması. Google ML Kit entegrasyonu sayesinde kamera ile metin okuma, şifreleme ve şifre çözme işlemlerini gerçekleştirebilirsiniz.
+                    </p>
+                    <div class="tech-stack">
+                        <h4>Kullanılan Teknolojiler:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">MVVM</span>
+                            <span class="tech-tag">Google ML Kit</span>
+                            <span class="tech-tag">Android SDK</span>
+                            <span class="tech-tag">Camera API</span>
+                            <span class="tech-tag">Shifting Algorithm</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Öne Çıkan Özellikler:</h4>
+                        <ul>
+                            <li>Kamera ile metin okuma ve şifreleme/deşifre etme</li>
+                            <li>Anahtar değer tabanlı güvenli şifreleme sistemi</li>
+                            <li>Şifrelenmiş metinleri doğrudan paylaşma</li>
+                            <li>Türkçe ve İngilizce dil desteği</li>
+                            <li>Kullanıcı dostu modern arayüz</li>
+                            <li>Yerel depolama olmadan güvenli işlem</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/erdemserhat/Encryptext" target="_blank" class="project-demo-button">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.asteriatech.androidcryptex" target="_blank" class="project-demo-button">
+                            <i class="fab fa-google-play"></i>
+                            Play Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Sprint Mate</h3>
+                    <span class="project-role">Desktop Developer</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Yazılım geliştirme ekipleri için tasarlanmış, proje yönetimi ve görev takibini kolaylaştıran masaüstü uygulaması. Özel ORM implementasyonu ve IP tabanlı erişim kontrolü ile güvenli ve verimli bir çalışma ortamı sağlar.
+                    </p>
+                    <div class="tech-stack">
+                        <h4>Kullanılan Teknolojiler:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Windows Forms</span>
+                            <span class="tech-tag">MVC</span>
+                            <span class="tech-tag">Custom ORM</span>
+                            <span class="tech-tag">IP-Based Security</span>
+                            <span class="tech-tag">Hot Reload</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Öne Çıkan Özellikler:</h4>
+                        <ul>
+                            <li>Özelleştirilmiş ORM implementasyonu</li>
+                            <li>IP tabanlı erişim kontrolü ile güvenlik</li>
+                            <li>Eş zamanlı çalışma için hot reload desteği</li>
+                            <li>Proje ve görev yönetimi</li>
+                            <li>Görev önceliklendirme ve durum takibi</li>
+                            <li>Ekip verimliliğini artıran araçlar</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/erdemserhat/SoftwareTeamManagement" target="_blank" class="project-demo-button">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Cryptoservice</h3>
+                    <span class="project-role">Backend Developer</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        Yenilikçi bir şifreleme mikroservisi. Her kullanıcı için UUID tabanlı benzersiz tuz değerleri ve şifreleme algoritmaları kullanarak, geleneksel yöntemlere göre daha güvenli bir yaklaşım sunar. SoC ve SSOT prensiplerine uygun olarak geliştirilmiş, bağımsız bir şifreleme sunucusu.
+                    </p>
+                    <div class="tech-stack">
+                        <h4>Kullanılan Teknolojiler:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">Microservices</span>
+                            <span class="tech-tag">UUID</span>
+                            <span class="tech-tag">blake2b</span>
+                            <span class="tech-tag">sha256</span>
+                            <span class="tech-tag">md5</span>
+                            <span class="tech-tag">API Security</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Öne Çıkan Özellikler:</h4>
+                        <ul>
+                            <li>Her kullanıcı için benzersiz şifreleme konfigürasyonu</li>
+                            <li>Bağımsız şifreleme sunucusu mimarisi</li>
+                            <li>Çoklu şifreleme algoritması ve tuz değeri havuzu</li>
+                            <li>Cache miss saldırılarına karşı gelişmiş koruma</li>
+                            <li>Güvenli API endpoint'leri ve kimlik doğrulama</li>
+                            <li>Yüksek performanslı ve ölçeklenebilir tasarım</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/erdemserhat/djangoCryptoMicroservice" target="_blank" class="project-demo-button">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>PasswNote</h3>
+                    <span class="project-role">Android Developer</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        PasswNote, güçlü şifrelerin oluşturulması ve güvenli bir şekilde saklanması için tasarlanmış bir Android uygulamasıdır. RSA şifreleme ve hash işlemleri ile güvenli depolama sağlarken, kullanıcı dostu arayüzü ile şifre yönetimini kolaylaştırır.
+                    </p>
+                    <div class="tech-stack">
+                        <h4>Kullanılan Teknolojiler:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">RSA Encryption</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Android SDK</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Hashing</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Öne Çıkan Özellikler:</h4>
+                        <ul>
+                            <li>Güçlü ve rastgele şifre oluşturma</li>
+                            <li>RSA şifreleme ile güvenli depolama</li>
+                            <li>Şifre güncelleme ve silme yönetimi</li>
+                            <li>Hash işlemleri ile veri güvenliği</li>
+                            <li>Kullanıcı dostu arayüz tasarımı</li>
+                            <li>SQLite ile yerel veri yönetimi</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/erdemserhat/PasswNote-PasswordManager" target="_blank" class="project-demo-button">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.erdemserhat.ultimatebox" target="_blank" class="project-demo-button">
+                            <i class="fab fa-google-play"></i>
+                            Play Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Serhat Erdem. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
